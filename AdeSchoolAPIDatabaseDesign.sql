@@ -5,6 +5,7 @@ CREATE TABLE [Students] (
   [LastName] varchar(50),
   [DateOfBirth] datetime,
   [StateOfOrigin] integer,
+  [Class] varchar(50),
   [ClassroomId] uniqueidentifier
 )
 GO
