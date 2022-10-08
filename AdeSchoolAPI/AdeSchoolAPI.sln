@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdeSchoolAPI", "AdeSchoolAPI\AdeSchoolAPI.csproj", "{076D2187-D5D4-4387-A744-65FC3A3D8BFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdeSchoolAPI", "AdeSchoolAPI\AdeSchoolAPI.csproj", "{076D2187-D5D4-4387-A744-65FC3A3D8BFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdeSchool.Domain", "AdeSchool.Domain\AdeSchool.Domain.csproj", "{C9FF36E1-F663-48BC-975E-F4BE752002F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdeSchool.Domain", "AdeSchool.Domain\AdeSchool.Domain.csproj", "{C9FF36E1-F663-48BC-975E-F4BE752002F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdeSchool.Infrastructure", "AdeSchool.Infrastructure\AdeSchool.Infrastructure.csproj", "{D0712DC0-D39D-4406-827B-6C324185AFE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdeSchool.Infrastructure", "AdeSchool.Infrastructure\AdeSchool.Infrastructure.csproj", "{D0712DC0-D39D-4406-827B-6C324185AFE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdeSchool.Db", "AdeSchool.Db\AdeSchool.Db.csproj", "{81260944-4258-4C46-9E75-31FAF2B63525}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdeSchool.Db", "AdeSchool.Db\AdeSchool.Db.csproj", "{81260944-4258-4C46-9E75-31FAF2B63525}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdeSchool.Test", "AdeSchool.Test\AdeSchool.Test.csproj", "{23966D39-4E50-475C-9EF5-B3CED661EFFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{81260944-4258-4C46-9E75-31FAF2B63525}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81260944-4258-4C46-9E75-31FAF2B63525}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81260944-4258-4C46-9E75-31FAF2B63525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23966D39-4E50-475C-9EF5-B3CED661EFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23966D39-4E50-475C-9EF5-B3CED661EFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23966D39-4E50-475C-9EF5-B3CED661EFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23966D39-4E50-475C-9EF5-B3CED661EFFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
