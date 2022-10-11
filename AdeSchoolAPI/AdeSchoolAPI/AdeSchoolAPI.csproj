@@ -14,4 +14,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AdeSchool.Db\AdeSchool.Db.csproj" />
+  </ItemGroup>
+
 </Project>
