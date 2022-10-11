@@ -6,6 +6,7 @@
         public string Term { get; set; }
         public string Session { get; set; }
         public Grade Grade { get; set; }
+        public int Score { get; set; }
         public Teacher Teacher { get; set; }
         public Student Student { get; set; }
         public Subject Subject { get; set; }
